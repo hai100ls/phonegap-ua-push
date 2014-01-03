@@ -34,7 +34,7 @@ import java.util.concurrent.Executors;
 
 public class PushNotificationPlugin extends CordovaPlugin {
 
-    private final static List<String> knownActions = Arrays.asList("enablePush", "disablePush", "enableLocation", "disableLocation", "enableBackgroundLocation",
+    private final static List<String> knownActions = Arrays.asList("takeOff","enablePush", "disablePush", "enableLocation", "disableLocation", "enableBackgroundLocation",
             "disableBackgroundLocation", "isPushEnabled", "isSoundEnabled", "isVibrateEnabled", "isQuietTimeEnabled", "isInQuietTime", "isLocationEnabled",
             "getIncoming", "getPushID", "getQuietTime", "getTags", "getAlias", "setAlias", "setTags", "setSoundEnabled", "setVibrateEnabled",
             "setQuietTimeEnabled", "setQuietTime", "recordCurrentLocation");
